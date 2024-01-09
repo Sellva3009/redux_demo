@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  border: 1px solid red;
+}
+
+.main-container {
+  display: flex;
+}
+
+.sidebar, .rightbar {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid grey;
+}
+
+.main {
+  flex: 2;
+  padding: 20px;
+  border: 1px solid grey;
+  margin: 0 20px;
+}
+
+.header {
+  border-bottom: 2px solid grey;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
