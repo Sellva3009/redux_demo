@@ -13,7 +13,7 @@ const Main = () => {
 
   const handleUpdate = (e) => {
     e.preventDefault();
-    dispatch(addHello(formData));
+    dispatch(update(formData));
   }
 
   const handleDelete = (e) => {
